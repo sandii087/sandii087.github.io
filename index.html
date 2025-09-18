@@ -1,62 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sandeep Yadav — Data Analyst Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandeep Yadav | Data Analyst Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Sandeep Yadav</h1>
-    <p>Data Analyst | Turning Data into Insights</p>
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <h1 class="logo">Sandeep Yadav</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="about">
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I’m <span class="highlight">Sandeep</span></h2>
+    <h3 class="typing-text"></h3>
+    <p>Turning data into insights | Aspiring Data Analyst</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
     <h2>About Me</h2>
-    <p>
-      Hi, I’m Sandeep Yadav. I recently graduated and completed a Professional Data Analytics certification.  
-      I specialize in <b>SQL, Python, Excel, Power BI, and Tableau</b>.  
-      This site showcases my projects and skills as I build my career in data analytics.
-    </p>
+    <p>I’m a Data Analytics graduate skilled in Python, SQL, Excel, Power BI, and Tableau. 
+    I enjoy solving business problems using data and creating dashboards that tell stories.</p>
   </section>
 
-  <section id="projects">
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">Excel</div>
+      <div class="skill-card">Power BI</div>
+      <div class="skill-card">Tableau</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
     <h2>Projects</h2>
-
-    <div class="project">
-      <h3>📊 Sales Dashboard in Power BI</h3>
-      <p>Built an interactive dashboard to track sales performance.</p>
-      <a href="https://github.com/sandii087/sales-dashboard" target="_blank">View on GitHub</a>
-    </div>
-
-    <div class="project">
-      <h3>🧹 Data Cleaning with Python & Pandas</h3>
-      <p>Performed data cleaning: handling missing values, duplicates, and outliers.</p>
-      <a href="https://github.com/sandii087/data-cleaning" target="_blank">View on GitHub</a>
-    </div>
-
-    <div class="project">
-      <h3>📈 Customer Retention Analysis</h3>
-      <p>Analyzed churn data to find key customer segments using SQL & Tableau.</p>
-      <a href="https://github.com/sandii087/customer-retention" target="_blank">View on GitHub</a>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Sales Dashboard">
+        <h3>Sales Dashboard</h3>
+        <p>Interactive dashboard built in Power BI.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="Data Cleaning">
+        <h3>Data Cleaning</h3>
+        <p>Python + Pandas for cleaning messy datasets.</p>
+        <a href="#">View Project</a>
+      </div>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:keeponn87@gmail.com">keeponn87@gmail.com</a></p>
-    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">linkedin.com/in/YOUR-LINKEDIN</a></p>
-    <p>💻 GitHub: <a href="https://github.com/sandii087" target="_blank">github.com/sandii087</a></p>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Let’s connect!</p>
+    <div class="contact-links">
+      <a href="mailto:keeponn87@gmail.com">📧 Email</a>
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/sandii087" target="_blank">💻 GitHub</a>
+    </div>
   </section>
 
   <footer>
-    <p>©️ 2025 Sandeep Yadav | Built with ❤️ using GitHub Pages</p>
+    <p>©️ 2025 Sandeep Yadav. All rights reserved.</p>
   </footer>
 </body>
 </html>
