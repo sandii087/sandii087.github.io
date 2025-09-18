@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sandeep Yadav | Data Analyst Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandeep Yadav | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Header -->
+  <!-- ===== Header ===== -->
   <header>
     <nav>
-      <h1 class="logo">Sandeep Yadav</h1>
+      <div class="logo">Sandeep Yadav</div>
       <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -21,65 +21,70 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Hello, I’m <span class="highlight">Sandeep</span></h2>
-    <h3 class="typing-text"></h3>
-    <p>Turning data into insights | Aspiring Data Analyst</p>
-    <a href="#projects" class="btn">View My Work</a>
+  <!-- ===== Hero Section ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I’m <span>Sandeep</span></h1>
+      <h2 class="typing-text"></h2>
+      <p>A passionate Developer & Problem Solver</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
   </section>
 
-  <!-- About -->
-  <section id="about" class="section">
+  <!-- ===== About Section ===== -->
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <p>I’m a Data Analytics graduate skilled in Python, SQL, Excel, Power BI, and Tableau. 
-    I enjoy solving business problems using data and creating dashboards that tell stories.</p>
+    <p>
+      I am a B.Tech (IT) graduate with strong skills in web development, 
+      problem-solving, and AI-driven projects. I love building clean, 
+      professional, and scalable solutions.
+    </p>
   </section>
 
-  <!-- Skills -->
-  <section id="skills" class="section">
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="skills">
     <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">Python</div>
-      <div class="skill-card">SQL</div>
-      <div class="skill-card">Excel</div>
-      <div class="skill-card">Power BI</div>
-      <div class="skill-card">Tableau</div>
+    <div class="skill-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">Salesforce</div>
+      <div class="skill">WordPress</div>
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="section">
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="projects">
     <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="images/project1.png" alt="Sales Dashboard">
-        <h3>Sales Dashboard</h3>
-        <p>Interactive dashboard built in Power BI.</p>
-        <a href="#">View Project</a>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Sales Performance Evaluation</h3>
+        <p>A machine learning-based project for evaluating sales data.</p>
       </div>
-      <div class="project-card">
-        <img src="images/project2.png" alt="Data Cleaning">
-        <h3>Data Cleaning</h3>
-        <p>Python + Pandas for cleaning messy datasets.</p>
-        <a href="#">View Project</a>
+      <div class="card">
+        <h3>Palm Detection App</h3>
+        <p>Computer vision project using OpenCV & MediaPipe to detect hand gestures.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A modern and responsive personal portfolio site.</p>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section">
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact">
     <h2>Contact Me</h2>
-    <p>Let’s connect!</p>
-    <div class="contact-links">
-      <a href="mailto:keeponn87@gmail.com">📧 Email</a>
-      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">🔗 LinkedIn</a>
-      <a href="https://github.com/sandii087" target="_blank">💻 GitHub</a>
-    </div>
+    <p>Email: <a href="mailto:keeponn87@gmail.com">keeponn87@gmail.com</a></p>
+    <p>Location: Varanasi, India</p>
   </section>
 
+  <!-- ===== Footer ===== -->
   <footer>
     <p>©️ 2025 Sandeep Yadav. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
